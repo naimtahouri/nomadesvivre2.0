@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="679" viewBox="0 0 410 679">
+    <defs>
+        <style>
+            .cls-1{fill:#f5b48c;opacity:.82}.cls-2{filter:url(#Rectangle_40)}
+        </style>
+        <filter id="Rectangle_40" width="410" height="679" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dx="10" dy="10"/>
+            <feGaussianBlur result="blur" stdDeviation="20"/>
+            <feFlood flood-opacity=".38"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g class="cls-2">
+        <rect id="Rectangle_40-2" width="290" height="559" class="cls-1" data-name="Rectangle 40" rx="26" transform="translate(50 50)"/>
+    </g>
+</svg>

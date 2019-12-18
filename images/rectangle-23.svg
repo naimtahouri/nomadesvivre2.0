@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="418" height="679" viewBox="0 0 418 679">
+    <defs>
+        <style>
+            .cls-1{fill:#202b43;opacity:.818}.cls-2{filter:url(#Rectangle_23)}
+        </style>
+        <filter id="Rectangle_23" width="418" height="679" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dx="10" dy="10"/>
+            <feGaussianBlur result="blur" stdDeviation="20"/>
+            <feFlood flood-opacity=".38"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g class="cls-2">
+        <rect id="Rectangle_23-2" width="298" height="559" class="cls-1" data-name="Rectangle 23" rx="20" transform="translate(50 50)"/>
+    </g>
+</svg>

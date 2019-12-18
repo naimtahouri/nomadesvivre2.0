@@ -1,0 +1,32 @@
+@media screen and (max-width: 1024px) {
+    .container{
+        background-image: url('../images/background-tablette-home.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .navbar{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background: none;
+    }
+
+    .box-links{
+        display: flex;
+    }
+
+    .cart{
+        display: none;
+    }
+
+    .title-masterShop{
+        margin-top:200px;
+    }
+
+    .container-masterShop{
+        flex-direction: column;
+    }
+    
+  }

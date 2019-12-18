@@ -1,0 +1,490 @@
+*{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "futura";
+    src: url("../webfonts/futura.ttf") format("truetype")
+   }
+
+body{
+    margin:0;
+    background-color: #005b88;
+    scroll-behavior: smooth;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    font-style:none;
+    color:rgba(255, 255, 255, 0.719);
+}
+
+a:hover{
+    color:white;
+}
+
+.container{
+    height:110vh;
+    overflow: hidden;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 100vh; */
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+}
+
+.logo{
+    height:60px;
+}
+
+.box-links{
+    color:white;
+    display:flex;
+}
+
+.box-links h3{
+    margin-right:20px;
+    font-family: 'futura';
+}
+
+.cart{
+    height:35px;
+}
+.cart-tablette{
+    display: none;
+}
+.box-header{
+    color:white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:40px;
+}
+
+.box-header h1{
+    font-size: 4em;
+    margin-top:150px;
+    font-family: 'futura';
+}
+
+.box-header button{
+    border: 2px solid white;
+    border-radius: 5rem;
+    background: none;
+    color:white;
+    height:60px;
+    width:400px;
+    font-family: 'futura';
+    margin-top: 60px;
+    outline: none;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.title-shopPart{
+    color:white;
+    font-family: 'futura';
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+    margin-top:50px;
+}
+.container-shopping-firstpage{
+    /* background: red; */
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:100px;
+    
+}
+
+.box-shop1{
+    background-image: url('../images/form-3.png');
+    background-size: cover;
+    width: 290px;
+    height:180px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-shop2{
+    background-image: url('../images/form-4.png');
+    background-size: cover ;
+    width: 290px;
+    height:180px;
+}
+
+.box-shop3{
+    background-image: url('../images/form-5.png');
+    background-size: cover ;
+    width: 290px;
+    height:180px;
+}
+
+.box-shop4{
+    background-image: url('../images/form-6.png');
+    background-size: cover ;
+    width: 290px;
+    height:180px;
+}
+
+.shoes1{
+    height:350px;
+    margin-top: -80px;
+    margin-left: -130px;
+}
+
+.box-infos-shop{
+    /* background: red; */
+    margin-left: -100px;
+    margin-top:20px;
+}
+
+.box-infos-shop2{
+    margin-left: 150px;
+    margin-top:-204px;
+}
+
+.box-infos-shop3{
+    margin-left: 150px;
+    margin-top:-212px;
+}
+
+.box-infos-shop4{
+    margin-left: 159px;
+    margin-top:-200px;
+}
+
+.box-infos-shop h3{
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.box-infos-shop2 h3{
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.box-infos-shop3 h3{
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.box-infos-shop4 h3{
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.box-rate{
+    display: flex;
+    margin-top:-15px;
+}
+
+.rate{
+    height:16px;
+    margin-right: 3px;
+}
+
+.add{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 80px;
+    height:20px;
+}
+
+.add2{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 80px;
+    height:20px;
+}
+
+.add3{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 80px;
+    height:20px;
+}
+
+.add4{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 80px;
+    height:20px;
+}
+
+.shoes2{
+    height:260px;
+    margin-top: -40px;
+    margin-left: -65px;
+}
+
+.shoes3{
+    height:280px;
+    margin-top: -50px;
+    margin-left: -60px;
+}
+
+.shoes4{
+    height:275px;
+    margin-top: -55px;
+    margin-left: -70px;
+}
+
+.title-masterShop{
+    color:White;
+    text-align: center;
+    font-family: 'futura';
+}
+
+.container-masterShop{
+    height:100vh;
+    display: flex;
+}
+
+.cardShop1{
+    width:300px;
+    height: 520px;
+    background-image: url('../images/rectangle-23.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.cardShop2{
+    width:300px;
+    height: 520px;
+    background-image: url('../images/rectangle-24.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top:50px;
+}
+
+.cardShop3{
+    width:300px;
+    height: 520px;
+    background-image: url('../images/rectangle-40.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top:100px;
+}
+
+.cardShop4{
+    width:300px;
+    height: 520px;
+    background-image: url('../images/rectangle-43.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top:150px;
+}
+.shoesMaster{
+    height:390px;
+    margin-top:-100px;
+    margin-left: -60px;
+}  
+
+.box-infosMasterShop{
+    margin-top:-100px;
+}
+
+.title-shoes{
+    color:white;
+    font-family: 'futura';
+    font-size: 1.6em;
+}
+
+.masterPrice{
+    color:white;
+    font-family: 'futura';
+    font-size: 2em;
+}
+
+.container-presentationApp{
+    height:100vh;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url('../images/backgroundPres.png');
+    background-size: cover;
+}
+
+.box-presentation{
+    /* background: green; */
+    height:100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-top:-300px;
+}
+
+.box-presentation h2{
+    font-size: 2.7em;
+    color:white;
+    text-align: end;
+    font-family: 'futura';
+}
+
+
+.box-presentation p{ 
+    text-align: center;
+    color:white;
+    font-size: 1.2em;
+    font-family: 'futura';
+}
+
+.side-left{
+    /* background: purple; */
+    height:100%;
+    width:50%;
+}
+
+.iphone{
+    height:650px;
+}
+.box-buttons{
+    display: flex;
+}
+
+.box-buttons img{
+    height:70px;
+    margin-right:50px;
+    margin-top:20px;
+    transition-duration: 0.9s;
+}
+
+
+.box-buttons img:hover{
+    transform: scale(1.2);
+}
+
+.container-mockup{
+    height:100vh;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+}
+
+.box-mockup{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding:10px;
+    margin:10px;
+    transition-duration: 1s;
+}
+
+.box-mockup:hover{
+    transform: scale(1.2);
+}
+
+.box-mockup img{
+    height:400px;
+}
+
+.box-mockup h4{
+    font-size: 0.9em;
+    text-align: center;
+    color:white;
+    font-family: 'futura';
+}
+
+.container-appChallenge{
+    height:60vh;
+    /* background: green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-engagment{
+    color:white;
+    font-family: 'futura';
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.box-challenge{
+    /* background: red; */
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    font-family: 'futura';
+    padding:20px;
+}
+
+.iconflat{
+    height:100px;
+}
+
+.title-contact{
+    color:white;
+    font-family: 'futura';
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.container-contact{
+    height:100vh;
+    /* background: red; */
+    color:white;
+    font-family: 'futura';
+    display: flex;
+    justify-content: space-around;
+    background-image: url('../images/backgroundfooter.png');
+    background-size: cover;
+}
+
+.box-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+}
+.box-contact img{
+    height:70px;
+}
+
+.box-contact h4{
+    font-weight: 400;
+    margin:10px;
+}
